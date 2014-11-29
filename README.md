@@ -11,7 +11,8 @@ This is a mirror for the d-feet project. The d-feet is a D-Bus monitoring tool w
 3. After that I added this repo as a remote for my project
    $ git remote add own https://github.com/aelarabawy/d-feet.git
 
-4. Then I pushed the project to github
+4. Then I pushed the project to github, this required to pull from it first to be on the tip of the branch, then performed the push
+  $ git pull own master
   $ git push own master
 
 
